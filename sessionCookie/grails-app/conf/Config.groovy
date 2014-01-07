@@ -134,12 +134,12 @@ grails.plugin.springsecurity.switchUser.switchFailureUrl = '/'
 //grails.plugin.springsecurity.useSessionFixationPrevention = false
 
 grails.plugin.cookiesession.enabled = true
-//grails.plugin.cookiesession.encryptcookie = true
+grails.plugin.cookiesession.encryptcookie = true
 grails.plugin.cookiesession.cryptoalgorithm = "Blowfish"
 grails.plugin.cookiesession.secret = "test"
 grails.plugin.cookiesession.cookiecount = 5
 grails.plugin.cookiesession.maxcookiesize = 10240  // 10kb
 grails.plugin.cookiesession.sessiontimeout = 6000 // 30 minutes
-grails.plugin.cookiesession.cookiename = 'gsession-5'
+grails.plugin.cookiesession.cookiename = 'gsession'
 grails.plugin.cookiesession.serializer = 'kryo'
 grails.plugin.cookiesession.springsecuritycompatibility = true
